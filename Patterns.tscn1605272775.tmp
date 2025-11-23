@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://cluvcs8qxviat"]
+
+[ext_resource type="Script" uid="uid://qmuipf4brx5m" path="res://patterns.gd" id="1_rbcqi"]
+[ext_resource type="Texture2D" uid="uid://dgo7xrypc070u" path="res://stripe.png" id="2_iui3c"]
+[ext_resource type="Texture2D" uid="uid://cv84sufdonr52" path="res://dots.png" id="3_pqksu"]
+
+[node name="Patterns" type="Node2D"]
+script = ExtResource("1_rbcqi")
+stripes_tex = ExtResource("2_iui3c")
+dots_tex = ExtResource("3_pqksu")
+tiles_x = 8
+tiles_y = 10
